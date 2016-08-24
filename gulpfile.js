@@ -13,7 +13,7 @@ var browserify = require('browserify');
 var watchify = require('watchify');
 var uglify = require('gulp-uglify');
 
-var production = precess.env.NODE_ENV === 'production';
+var production = process.env.NODE_ENV === 'production';
 
 var dependencies = [
     'alt',
